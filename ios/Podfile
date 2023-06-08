@@ -21,6 +21,12 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
+project 'RNTemplate',
+        'Dev.Debug' => :debug,
+        'Dev.Release' => :release,
+        'Prod.Debug' => :debug,
+        'Prod.Release' => :release
+
 target 'RNTemplate' do
   config = use_native_modules!
 

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] - [Selector - iOS] should render selector component for ios 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "flex-start",
+      "backgroundColor": "#ffffff",
+      "borderColor": "#eaeaea",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "height": 43,
+      "justifyContent": "center",
+      "marginVertical": 10,
+      "opacity": 1,
+      "paddingHorizontal": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+      }
+    }
+    testID="selector-selected-value"
+  />
+</View>
+`;
