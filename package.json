@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "postinstall": "husky install",
     "android": "react-native run-android --mode=developmentDebug --appIdSuffix 'dev'",
     "android:release": "cd android && ./gradlew assembleProductionRelease",
     "ios": "react-native run-ios --scheme RNTemplate --mode Dev.Debug",
