@@ -32,5 +32,6 @@ const AllTheProviders: FC<{children: ReactNode}> = ({children}) => (
   </GlobalContextProvider>
 );
 
+// eslint-disable-next-line import/no-extraneous-dependencies
 export * from '@testing-library/react-native';
 export {customRender as render};
