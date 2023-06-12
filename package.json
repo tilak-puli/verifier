@@ -79,6 +79,7 @@
     "ts-jest": "^29.1.0",
     "typescript": "^4.8.4"
   },
+  "packageManager": "yarn@3.2.1",
   "config": {
     "commitizen": {
       "path": "cz-format-extension"
