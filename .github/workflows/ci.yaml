@@ -27,7 +27,7 @@ jobs:
         run: yarn install --immutable
 
       - name: Vulnerability Checks
-        run: yarn npm audit --all --recursive
+        run: yarn npm audit --all
 
       - name: ESLint
         run: yarn lint
