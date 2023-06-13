@@ -19,7 +19,7 @@ jobs:
       - name: Setup node and caching
         uses: actions/setup-node@v3
         with:
-          node-version-file: '.node-version'
+          node-version: 16
           cache: 'yarn'
           cache-dependency-path: yarn.lock
 
@@ -27,7 +27,7 @@ jobs:
         run: yarn install --immutable
 
       - name: Vulnerability Checks
-        run: yarn npm audit --all --recursive
+        run: yarn npm audit --all
 
       - name: ESLint
         run: yarn lint
