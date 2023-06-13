@@ -40,7 +40,6 @@ apps/mobile/index.android.bundle.map
 node_modules/
 npm-debug.log
 yarn-error.log
-.yarn
 
 # fastlane
 #
