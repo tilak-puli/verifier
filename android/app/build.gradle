@@ -142,11 +142,11 @@ android {
     flavorDimensions "default"
         productFlavors {
             production {
-                resValue "string", "app_name", "rntemplate"
+                resValue "string", "app_name", "Verifier"
             }
             development {
                 applicationIdSuffix ".dev"
-                resValue "string", "app_name", "rntemplate Dev"
+                resValue "string", "app_name", "Verifier Dev"
             }
         }
 
