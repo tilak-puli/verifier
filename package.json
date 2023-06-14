@@ -9,7 +9,7 @@
     "ios": "react-native run-ios --scheme RNTemplate --mode Dev.Debug",
     "lint": "eslint . --cache",
     "lint:fix": "eslint --fix .",
-    "start": "ENVFILE=.env.development react-native start",
+    "start": "ENVFILE=env/.env.development react-native start",
     "test": "jest --colors --config ./jest.config.js",
     "mock-server": "yarn workspace mock-server start",
     "prettier:check": "prettier --check './**/*.{ts,tsx,js,jsx}'",
